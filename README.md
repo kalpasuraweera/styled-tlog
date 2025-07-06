@@ -1,10 +1,11 @@
 # styled-tlog
 
-[![npm version](https://badge.fury.io/js/@kalpasuraweera%2Fstyled-tlog.svg)](https://badge.fury.io/js/@kalpasuraweera%2Fstyled-tlog)
+[![npm version](https://badge.fury.io/js/styled-tlog.svg)](https://badge.fury.io/js/styled-tlog)
 [![npm downloads](https://img.shields.io/npm/dm/styled-tlog.svg)](https://www.npmjs.com/package/styled-tlog)
 [![license](https://img.shields.io/npm/l/styled-tlog.svg)](https://github.com/kalpasuraweera/styled-tlog/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
+
 
 🎨 A terminal logger with style — define your log types with color, bold, background, etc. in a type-safe way.
 
