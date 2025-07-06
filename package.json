@@ -1,6 +1,6 @@
 {
   "name": "styled-tlog",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple and customizable terminal logger with styling and full TypeScript support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
