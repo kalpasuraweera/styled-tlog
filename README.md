@@ -1,8 +1,8 @@
 # styled-tlog
 
 [![npm version](https://badge.fury.io/js/@kalpasuraweera%2Fstyled-tlog.svg)](https://badge.fury.io/js/@kalpasuraweera%2Fstyled-tlog)
-[![npm downloads](https://img.shields.io/npm/dm/@kalpasuraweera/styled-tlog.svg)](https://www.npmjs.com/package/@kalpasuraweera/styled-tlog)
-[![license](https://img.shields.io/npm/l/@kalpasuraweera/styled-tlog.svg)](https://github.com/kalpasuraweera/styled-tlog/blob/main/LICENSE)
+[![npm downloads](https://img.shields.io/npm/dm/styled-tlog.svg)](https://www.npmjs.com/package/styled-tlog)
+[![license](https://img.shields.io/npm/l/styled-tlog.svg)](https://github.com/kalpasuraweera/styled-tlog/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
 
@@ -11,21 +11,21 @@
 ## 📦 Installation
 
 ```bash
-npm install @kalpasuraweera/styled-tlog
+npm install styled-tlog
 ```
 
 ```bash
-yarn add @kalpasuraweera/styled-tlog
+yarn add styled-tlog
 ```
 
 ```bash
-pnpm add @kalpasuraweera/styled-tlog
+pnpm add styled-tlog
 ```
 
 ## 🔧 Usage
 
 ```ts
-import { createLogger } from "@kalpasuraweera/styled-tlog";
+import { createLogger } from "styled-tlog";
 
 const logger = createLogger({
   success: { color: "green", bold: true },
