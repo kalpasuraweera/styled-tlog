@@ -7,7 +7,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
 
 
-🎨 A terminal logger with style — define your log types with color, bold, background, etc. in a type-safe way.
+🎨 A stylish, type-safe terminal logger — configure once, use everywhere. Define custom log types with personalized names and apply styling options like text color, background color, bold, and underline. Once configured, simply call `logger.yourCustomType()` anywhere in your project for consistent, beautiful terminal output.
 
 ## 📦 Installation
 
