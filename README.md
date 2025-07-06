@@ -1,11 +1,31 @@
 # styled-tlog
 
+[![npm version](https://badge.fury.io/js/@kalpasuraweera%2Fstyled-tlog.svg)](https://badge.fury.io/js/@kalpasuraweera%2Fstyled-tlog)
+[![npm downloads](https://img.shields.io/npm/dm/@kalpasuraweera/styled-tlog.svg)](https://www.npmjs.com/package/@kalpasuraweera/styled-tlog)
+[![license](https://img.shields.io/npm/l/@kalpasuraweera/styled-tlog.svg)](https://github.com/kalpasuraweera/styled-tlog/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
+
 🎨 A terminal logger with style — define your log types with color, bold, background, etc. in a type-safe way.
+
+## 📦 Installation
+
+```bash
+npm install @kalpasuraweera/styled-tlog
+```
+
+```bash
+yarn add @kalpasuraweera/styled-tlog
+```
+
+```bash
+pnpm add @kalpasuraweera/styled-tlog
+```
 
 ## 🔧 Usage
 
 ```ts
-import { createLogger } from "styled-tlog";
+import { createLogger } from "@kalpasuraweera/styled-tlog";
 
 const logger = createLogger({
   success: { color: "green", bold: true },
@@ -18,10 +38,34 @@ logger.error("Something went wrong");
 
 ## 📸 Output
 
-![Usage Examples](./media/example.png)
+![Usage Examples](https://github.com/kalpasuraweera/styled-tlog/blob/main/media/example.png?raw=true)
 
 ## 🎨 Available Styles
 
-![Usage Examples](./media/1.png)
+![Usage Examples](https://github.com/kalpasuraweera/styled-tlog/blob/main/media/1.png?raw=true)
 
-![Usage Examples](./media/2.png)
+![Usage Examples](https://github.com/kalpasuraweera/styled-tlog/blob/main/media/2.png?raw=true)
+
+## 🚀 Features
+
+- ✅ Full TypeScript support
+- 🎨 8 colors and 8 background colors
+- 📝 Bold and underline text styles
+- 🔧 Customizable logger configurations
+- 🪶 Lightweight with zero dependencies
+- 🎯 Type-safe logger methods
+
+## 📚 API Reference
+
+### Available Colors
+`black` | `red` | `green` | `yellow` | `blue` | `magenta` | `cyan` | `white`
+
+### Available Styles
+- `color`: Text color
+- `background`: Background color
+- `bold`: Bold text
+- `underline`: Underlined text
+
+## 📄 License
+
+MIT © [Kalpa Suraweera](https://github.com/kalpasuraweera)
