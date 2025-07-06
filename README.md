@@ -14,3 +14,14 @@ const logger = createLogger({
 
 logger.success("Operation was successful");
 logger.error("Something went wrong");
+```
+
+## 📸 Output
+
+![Usage Examples](./media/example.png)
+
+## 🎨 Available Styles
+
+![Usage Examples](./media/1.png)
+
+![Usage Examples](./media/2.png)
